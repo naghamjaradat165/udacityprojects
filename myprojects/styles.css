@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ive searched for it */
+}
+.animal-card-design {
+  width: 300px;
+  height: 750px;
+  background-color: #ebcdcd62;
+  border: 4px solid #6b6092;
+  padding: 20px;
+}
+.animal-card-design img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #6b6092;
+  padding: 3px;
+  border-radius: 50px; /* ive searched for it */
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3); /* ive searched for it */
+}
+.animal-card-design h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #333333ee;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccccccde;
+  border-top: 1px;
+  padding-bottom: 10px;
+}
+.interesting-animal-fact {
+  font-style: italic;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #e5c5ebd5;
+  border: 1px solid #d8b7d1d5;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.animal-item-list {
+  margin-bottom: 150px;
+  padding: 0;
+  border: 1px;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+ul li span {
+  font-weight: bold;
+  color: #6b6092;
+}
+.animal-description {
+  font-size: 15px;
+  color: #0a0a0a;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #a096caec;
+  border: 1px solid #d8b7d1d5;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.8);
+}
